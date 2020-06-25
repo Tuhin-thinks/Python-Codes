@@ -6,7 +6,7 @@
 
 ## Purpose:
 I have created this repository to assemble all Python problems that I have solved from <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
-Mostly all questions are asked in Amazon Cosing interview.
+Mostly all questions are asked in Amazon Coding interview.
 
 ## Activity:
 I update the repository 2 times a week.
