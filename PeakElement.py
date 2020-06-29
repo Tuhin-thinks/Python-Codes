@@ -36,51 +36,50 @@ Testcase 1: In the given array, 3 is the peak element as it is greater than its 
 Testcase 2: 4 is the peak element as it is greater than its neighbour elements.
 """
 
+
 # function should return index to the any valid peak element
 def peakElement(arr, n):
     # Code here
-    i=0
+    i = 0
     while i < n:
-        if i!=0 and i!= n-1:
-            left_neighbour = arr[i-1]
-            right_neighbour = arr[i+1]
+        if i != 0 and i != n - 1:
+            left_neighbour = arr[i - 1]
+            right_neighbour = arr[i + 1]
             element = arr[i]
-            if element>left_neighbour and element>right_neighbour:
+            if element > left_neighbour and element > right_neighbour:
                 return i
-        elif i==0:
-            if n>1:
-                right_neighbour = arr[i+1]
+        elif i == 0:
+            if n > 1:
+                right_neighbour = arr[i + 1]
                 element = arr[i]
                 if element > right_neighbour:
                     return i
             else:
                 return 0
-        elif i==n-1:
-            left_neighbour = arr[i-1]
+        elif i == n - 1:
+            left_neighbour = arr[i - 1]
             element = arr[i]
             if element > left_neighbour:
                 return i
-        i+=1
+        i += 1
 
 
-
-
-#{
+# {
 #  Driver Code Starts
-if __name__=='__main__':
+if __name__ == '__main__':
     t = int(input())
     for i in range(t):
         n = int(input())
         arr = list(map(int, input().strip().split()))
         index = peakElement(arr, n)
         flag = False
-        if index == 0 and n==1:
+        if index == 0 and n == 1:
             flag = True
-        elif index==0 and arr[index]>=arr[index+1]:
+        elif index == 0 and arr[index] >= arr[index + 1]:
             flag = True
-        elif index==n-1 and arr[index]>=arr[index-1]:
+        elif index == n - 1 and arr[index] >= arr[index - 1]:
             flag = True
-        elif arr[index-1] <= arr[index] and arr[index] >= arr[index+1]:
+        elif arr[index - 1] <= arr[index] and arr[index] >= arr[index + 1]:
             flag = True
         else:
             flag = False
