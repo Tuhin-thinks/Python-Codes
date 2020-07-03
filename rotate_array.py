@@ -36,20 +36,22 @@ Testcase 1: 1 2 3 4 5  when rotated by 2 elements, it becomes 3 4 5 1 2.
 Testcase 2: 2 4 6 8 10 12 14 16 18 20  when rotated by 3 elements, it becomes 8 10 12 14 16 18 20 2 4 6.
 """
 
+
 def rotateArr(A, D, N):
     # Your code here
     A[D:] = A[D:] + A[:D]
     del A[:D]
 
+
 if __name__ == '__main__':
     T = int(input())
     while T > 0:
-        nd = [int(x) for x in  input().strip().split()]
+        nd = [int(x) for x in input().strip().split()]
         N = nd[0]
         D = nd[1]
         A = [int(e) for e in input().split()]
         rotateArr(A, D, N)
-        for i in  A:
+        for i in A:
             print(i, end=" ")
         print()
 
