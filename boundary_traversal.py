@@ -57,15 +57,12 @@ Testcase 4: Boundary Traversal will be 1 2 3 4.
 
 
 def BoundaryTraversal(a, n, m):
-    # code here
-    perimeter = 2 * (m + n)
     pattern = [
         min(0, n - 1),  # i min
         max(0, m - 1),  # j max
         max(0, n - 1),  # i max
         min(0, m - 1)  # j min
     ]
-    i, j = 0, 0
     ind = 0
     completed = []
     while ind < len(pattern):
@@ -97,6 +94,8 @@ def BoundaryTraversal(a, n, m):
                     print(a[x][y], end=" ")
                     completed.append([x, y])
         ind += 1
+
+
 # {
 #  Driver Code Starts
 # Initial Template for Python 3
