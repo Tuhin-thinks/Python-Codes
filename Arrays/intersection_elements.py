@@ -48,9 +48,6 @@ Code has expected 0.03s time complexity
 
 
 def NumberofElementsInIntersection(a, b, n, m):
-    #return: expected length of the intersection array.
-    
-    #code here
     return len(set.intersection(set(a),set(b)))
 
 
