@@ -62,7 +62,8 @@ if __name__ == '__main__':
     a = input('Word-1:')
     b = input('Word-2:')
     m, n = len(a), len(b)
-    res = input("Want to see the steps:(y/n)")
+    # res = input("Want to see the steps:(y/n)")
+    res = 'n'
     if res.lower().startswith('y'):
         print_perm = True
     else:
