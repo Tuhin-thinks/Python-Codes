@@ -8,6 +8,9 @@
 I have created this repository to assemble all Python problems that I have solved from <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
 Mostly all questions are asked in Amazon Coding interview.
 
+Also, I am solving problems from ProjectEuler+ from <a href="https://www.hackerrank.com/contests/projecteuler/challenges">HackerRank</a>
+- All problems will be well named and categorised for easy readability and access.
+
 ## Activity:
 I update the repository 2 times a week.
 
