@@ -9,7 +9,10 @@ I have created this repository to assemble all Python problems that I have solve
 Mostly all questions are asked in Amazon Coding interview.
 
 Also, I am solving problems from ProjectEuler+ from <a href="https://www.hackerrank.com/contests/projecteuler/challenges">HackerRank</a>
-- All problems will be well named and categorised for easy readability and access.
+ - 27-11-2020 : Solution from <a href="https://www.codechef.com/">CodeChef</a> also will be added
+ - 29-11-2020 : DSA cracker sheet (by <a href="https://www.youtube.com/c/LoveBabbar1/featured">Love Babbar</a>) solutions will also be added
+
+All problems will be well named and categorised for easy readability and access.
 
 ## Activity:
 I update the repository 2 times a week.
