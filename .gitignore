@@ -1,3 +1,7 @@
 Arrays/test.ipynb
 .vscode/settings.json
 **.ipynb
+
+.idea
+__pycache__
+test/*
