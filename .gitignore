@@ -1,7 +1,11 @@
 Arrays/test.ipynb
 .vscode/settings.json
 **.ipynb
+**/.mypy_cache
 
 .idea
 __pycache__
-test/*
+
+# ignore the testing virtual environment and related folders
+testing_env/
+test/
