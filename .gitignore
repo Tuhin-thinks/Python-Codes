@@ -7,5 +7,6 @@ Arrays/test.ipynb
 __pycache__
 
 # ignore the testing virtual environment and related folders
+**Testing/
 testing_env/
-test/
+**/test
