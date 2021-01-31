@@ -11,5 +11,5 @@ __pycache__
 testing_env/
 **/test
 # ignore files generate from C++ or C programs
-*.out
-*.exe
+**.out
+**.exe
