@@ -10,3 +10,6 @@ __pycache__
 **Testing/
 testing_env/
 **/test
+# ignore files generate from C++ or C programs
+**.out
+**.exe
