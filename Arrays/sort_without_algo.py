@@ -11,8 +11,14 @@ class Solution:
             else:
                 elem_hash[elem] = 1
         arr.clear()
-        for elem in elem_hash.keys():
-            arr.extend([elem]*elem_hash[elem])
+        # -------------- incorrect approach (but may pass test as in dictionary order of elems is not always preserved ) -------------
+        # for elem in elem_hash.keys():
+        #     arr.extend([elem]*elem_hash[elem])
+
+        # --------------- correct approach ----------------
+        for elem in range(3):
+            if elem in elem_hash.keys():
+                arr.extend([elem] * elem_hash[elem])
 
 if __name__ == '__main__':
     t = int(input())
