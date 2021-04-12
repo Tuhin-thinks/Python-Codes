@@ -1,3 +1,7 @@
+"""
+source: https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#
+"""
+
 class Solution:
     def getMinDiff(self, arr, n, k):
         # code here
