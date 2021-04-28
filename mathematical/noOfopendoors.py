@@ -3,7 +3,7 @@ problem link: https://practice.geeksforgeeks.org/problems/number-of-open-doors15
 """
 class Solution:
     def noOfOpenDoors(self, N):
-        pass
+        return math.floor(math.sqrt(N))
 
 
 import math
