@@ -13,7 +13,7 @@ Also, I am solving problems from ProjectEuler+ from <a href="https://www.hackerr
  - 29-11-2020 : DSA cracker sheet (by <a href="https://www.youtube.com/c/LoveBabbar1/featured">Love Babbar</a>) solutions will also be added
  - 29-01-2021: Problems from HackerEarth to be added under `HackerEarth/` folder.
  - 28-01-2021: Problems from Codeforce to be added under `Codeforce/` folder.
- - 28-04-2021: New Topic folder ![mathemetical](/mathematical)
+ - 28-04-2021: New Topic folder [mathematical](/mathematical)
 
 All problems will be well named and categorised for easy readability and access.
 
