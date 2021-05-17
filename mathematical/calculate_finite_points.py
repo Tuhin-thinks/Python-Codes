@@ -30,7 +30,7 @@ def round_off_significant_digit(number, signification_digit):
         if len(number.split('.')[-1]) > 0:
             return round_off(number, len(number) - signification_digit - 1)
         else:
-            return int(number.split('.'))[0]
+            return int(number.split('.')[0])
     else:
         return number
 
