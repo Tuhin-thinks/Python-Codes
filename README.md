@@ -1,7 +1,7 @@
 # Python-Codes
 <em>Python Competitive Coding</em>
 <p>
-  <img src="https://github.com/Tuhin-thinks/Python-Codes/blob/master/images/178891861.jpg" alt="Design Image" width="650" height="auto" style="horizontal-align:middle;margin: 20px 50px;">
+  <img src="images/178891861.jpg" target="blank_" alt="Design Image" width="350" height="auto" style="horizontal-align:middle;margin: 20px 50px;">
 </p>
 
 ## Purpose:
