@@ -1,5 +1,5 @@
 t = int(input())
 while t:
     n = input()
-    print(n[::-1])
-    t-= 1
+    print(int(n[::-1]))
+    t -= 1
