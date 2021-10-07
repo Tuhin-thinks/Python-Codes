@@ -1,13 +1,6 @@
 """
 problem link: https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
-"""n3
-
-import math
-import os
-import random
-import re
-import sys
-
+"""
 # Complete the catAndMouse function below.
 def catAndMouse(x, y, z):
     cat_a = abs(z-x)
