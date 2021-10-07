@@ -4,6 +4,7 @@ Arrays/test.ipynb
 
 .idea
 __pycache__
+*.vscode
 
 # ignore the testing virtual environment and related folders
 **Testing/
