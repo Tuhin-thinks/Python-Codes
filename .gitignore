@@ -7,7 +7,7 @@ __pycache__
 *.vscode
 
 # ignore the testing virtual environment and related folders
-**Testing/
+**/Testing/
 testing_env/
 **/test
 # ignore files generate from C++ or C programs
