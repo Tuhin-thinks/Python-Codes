@@ -13,3 +13,4 @@ testing_env/
 # ignore files generate from C++ or C programs
 **.out
 **.exe
+*.txt
